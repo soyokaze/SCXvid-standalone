@@ -11,6 +11,7 @@ Win32 executable can be found in the releases section. For *nix you'll have to b
 ### Building
 #### Requirements
 * Xvid 1.3.x
+
 #### On Windows
 Use the Visual Studio solution in the repository. The "xvidcore" directory from Xvid sources must be on the same level with SCXvid directory. Also make sure that you compile libxvidcore with DLL runtime, not static.
 #### On Unix-like systems
