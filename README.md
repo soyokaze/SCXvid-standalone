@@ -17,7 +17,7 @@ Use the Visual Studio solution in the repository. The "xvidcore" directory from 
 #### On Unix-like systems
 Assuming you have libxvidcore properly installed somewhere in compiler's default paths, run:
 ```
-cc -lxvidcore -o scxvid scxvid.c
+cc -o scxvid scxvid.c -lxvidcore
 ```
 
 
